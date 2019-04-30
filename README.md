@@ -25,3 +25,22 @@ Para adicionar um novo evento na agendar e no site [eventos.python.org.br](https
 ### 3. Fazer um pull request com as alterações
 
 Pronto, agora basta fazer um pull request com as suas mudanças, quando o PR for revisador e aceito, o novo evento deverá aparecer na [agenda](https://calendar.google.com/calendar/embed?src=rougeth.com_5a9t9ilqlfumkopl3nlmmkq9kk%40group.calendar.google.com&ctz=America%2FSao_Paulo) e no site [eventos.python.org.br](https://eventos.python.org.br).
+
+# Rodando o projeto localmente
+
+## Requerimentos
+1. python3 
+1. python-dev e/ou python3-dev
+1. build-essential
+1. libssl-dev
+1. libffi-dev
+1. libxml2-dev
+1. libxslt1-dev
+1. zlib1g-dev
+1. python-pip
+1. python3-setuptools
+1. ibis-framework
+1. python-decouple
+1. Projeto no Google Calendar API
+1. Netlify Token
+

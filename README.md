@@ -58,4 +58,4 @@ Pronto, agora basta fazer um pull request com as suas mudanças, quando o PR for
 
 1. Habilite seu Google Calendar API [aqui](https://developers.google.com/calendar/quickstart/python?refresh=1)
 
-1. Crie um novo projeto Oauth2, você pode encontrar mais orientações aqui [aqui](https://developers.google.com/api-client-library/python/guide/aaa_oauth)
+1. Crie um novo projeto Oauth2, você pode encontrar mais orientações [aqui](https://developers.google.com/api-client-library/python/guide/aaa_oauth)

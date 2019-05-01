@@ -1,0 +1,24 @@
+1 - instale todos os pacotes necessarios
+
+sudo apt-get install python3 python-dev python3-dev \
+     build-essential libssl-dev libffi-dev \
+     libxml2-dev libxslt1-dev zlib1g-dev \
+     python3-pip
+
+sudo apt-get install python3-setuptools
+
+pip3 install ibis-framework
+
+pip3 install python-decouple
+
+pip3 install attrs
+
+pip3 install --upgrade google-api-python-client
+
+pip3 install ics
+
+2 - criar um app no google calendar
+
+3 - Criar um arquivo chamado .env na raiz do projeto, ou seja, onde está o README
+    O que deve ir no arquivo ?
+    GOOGLE_API_CALENDAR_ID=Api_key

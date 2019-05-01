@@ -55,7 +55,20 @@ Pronto, agora basta fazer um pull request com as suas mudanças, quando o PR for
     ```
         pip3 install -r requirements.txt
     ```
-
 1. Habilite seu Google Calendar API [aqui](https://developers.google.com/calendar/quickstart/python?refresh=1)
 
-1. Crie um novo projeto Oauth2, você pode encontrar mais orientações [aqui](https://developers.google.com/api-client-library/python/guide/aaa_oauth)
+1. Crie um arquivo chamado ".env" e coloque as seguintes informações lá
+    ```
+        GOOGLE_API_CALENDAR_ID=<Client_ID>
+        NETLIFY_TOKEN=<Client_token>
+        NETLIFY_SITE_ID=<Client_ID>
+    ```
+
+1. Crie um novo projeto no [Google API Console](https://console.developers.google.com/projectselector2/apis/library) chamado PythonBrasil
+ 
+1. Crie uma nova credencial do tipo "service account" para o seu projeto criado anteriormente.
+    1. Faça download desse arquivo, renomeie-o para "google_auth.json" e coloque-o na pasta base do projeto, ou seja, iremos encontra-lo em um endereço parecido com esse:
+    ```
+        /home/roger/pasta_do_projeto/pythonbasil/google_auth.json
+    ```
+

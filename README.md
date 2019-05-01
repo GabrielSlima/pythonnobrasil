@@ -29,18 +29,33 @@ Pronto, agora basta fazer um pull request com as suas mudanças, quando o PR for
 # Rodando o projeto localmente
 
 ## Requerimentos
-1. python3 
-1. python-dev e/ou python3-dev
-1. build-essential
-1. libssl-dev
-1. libffi-dev
-1. libxml2-dev
-1. libxslt1-dev
-1. zlib1g-dev
-1. python-pip
-1. python3-setuptools
-1. ibis-framework
-1. python-decouple
-1. Projeto no Google Calendar API
-1. Netlify Token
+* python3 
+* python-dev e/ou python3-dev
+* build-essential
+* libssl-dev
+* libffi-dev
+* libxml2-dev
+* libxslt1-dev
+* zlib1g-dev
+* python-pip
+* python3-setuptools
+* ibis-framework
+* python-decouple
+* Projeto no Google Calendar API
+* Netlify Token
 
+## Instalando
+1. Instale os modulos e programas necessarios
+    ```
+        sudo apt-get install python3 python-dev python3-dev \
+        build-essential libssl-dev libffi-dev \
+        libxml2-dev libxslt1-dev zlib1g-dev \
+        python3-pip
+    ```
+    ```
+        pip3 install -r requirements.txt
+    ```
+
+1. Habilite seu Google Calendar API [aqui](https://developers.google.com/calendar/quickstart/python?refresh=1)
+
+1. Crie um novo projeto Oauth2, você pode encontrar mais orientações aqui [aqui](https://developers.google.com/api-client-library/python/guide/aaa_oauth)
